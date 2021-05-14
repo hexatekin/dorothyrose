@@ -1,0 +1,204 @@
+body {
+	display:block;
+	padding:72pt;
+	font-size:1.5em;
+	font-family:"Times New Roman";
+	max-width:50%;
+        min-width: 50%;
+	
+}
+
+
+div.animation {
+	 
+        position:fixed;
+        width:29%;
+        height: auto;
+	margin-top: -40px;
+        margin-left:500px;
+        top: 155px;
+        right: 55px;
+	z-index: 999;
+	animation: rot 2.5s infinite linear;
+        animation-duration: 5s;
+        display: inline-block;
+ 
+}
+
+@keyframes rot {
+	from {
+		transform: rotate(0deg)
+		           translate(-83px)
+		           rotate(0deg);
+
+	}
+	to {
+		transform: rotate(360deg)
+		           translate(-83px) 
+		           rotate(-360deg);
+
+	}
+}
+
+
+div.animation2 {
+	position:fixed;
+        width:29%;
+	height: auto;
+z-index: 999;
+	margin-top: -40px;
+        margin-left: 500px;
+	animation: rot 5s infinite linear;
+        animation-delay: -2s;
+        display: inline-block;
+top: 155px; 
+right: 55px; 
+        
+}
+
+
+
+div.animation3 {
+	 
+	position:fixed;
+       width:65%;
+         height: auto;
+	margin-top: -80px;
+        margin-left:-40px;
+        top: 500px;
+right: 70px;
+	z-index: 999;
+	animation: rot2 5s infinite linear;
+animation-duration: 5s;
+display: inline-block;
+
+ 
+}
+
+@keyframes rot2 {
+	from {
+		transform: rotate(0deg)
+		           translate(-220px)
+		           rotate(0deg);
+
+
+	}
+	to {
+		transform: rotate(360deg)
+		           translate(-220px) 
+		           rotate(-360deg);
+
+	}
+}
+
+div.animation4 {
+	 
+	position:fixed;
+        width:65%;
+	height: auto;
+z-index: 999;
+	margin-top: -80px;
+        margin-left: -40px;
+	animation: rot2 5s infinite linear;
+        animation-delay: -2.5s;
+        display: inline-block;
+top: 500px; 
+right: 70px;
+
+ 
+}
+
+
+
+
+div.ex1 {
+max-width:468pt;
+}
+
+
+
+div.ex2	{
+max-width:800pt;
+}
+
+	
+ul {
+  list-style-type: none;
+  padding-left:0;
+}
+
+ul.styled-list {
+padding-left:40;
+}
+
+
+li 	{
+margin:0 0 1.1em 0; 
+padding-left:0; 
+}
+
+a {
+font-size:1em;
+}
+
+a:link, a:visited {
+    color: Blue;
+}
+
+a:hover {
+    color: Red;
+}
+
+
+.Table
+    {
+        display: table;
+        
+    }
+
+.Title
+    {
+        display: table-caption;
+    }
+
+    
+.Row
+    {
+        display: table-row;
+        text-align: left;
+        width: 100%;
+    }
+    
+.RowHeading
+    {
+        display: table-row;
+        text-align: left;
+        width: 100%;
+        font-weight: bold;
+    } 
+    
+    
+.Cell
+    {
+        display: table-cell;
+        padding-left: 20px;
+        padding-right: 20px;
+        padding-top: 10px;
+       
+    }
+    
+figure {
+
+}
+    
+figure figcaption {
+    
+    text-align: left;
+    font-size: 0.6em;
+    display: block;
+    word-wrap:normal;
+}
+
+imgContainer{
+    float:left;
+}
