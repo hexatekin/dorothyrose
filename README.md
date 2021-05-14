@@ -1,5 +1,4 @@
 # hexatekin.github.io
-Personal website 
 
 This is the basic template I made for my personal website http://dorothyhoward.com
 
