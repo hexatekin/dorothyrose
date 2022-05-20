@@ -1,5 +1,5 @@
 # Personal Website
 
-This is the stripped-down template for my simple personal website http://dorothyrose.info
+This is the stripped-down template for my personal website http://dorothyrose.info
 
-It is purposefully nothing fancy. 
+It is purposefully nothing fancy
